@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
-class guess {
+class Guess_game{
     public static void main(String[] args){
         Random r = new Random();
         int g = r.nextInt(100);
@@ -35,3 +35,4 @@ class guess {
         }
     }
 }
+
