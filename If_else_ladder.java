@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class condition{
+class If_else_ladder{
     public static void main(String[] args){
         System.out.print("Enter Your Age : ");
         Scanner s = new Scanner(System.in);
@@ -15,4 +15,5 @@ class condition{
         }
         s.close();
     }
+
 }
