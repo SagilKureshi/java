@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class choice{
+class Switch_case{
     public static void main(String[] args){
         System.out.print("Enter your Numbar : ");
         Scanner s = new Scanner(System.in);
@@ -23,4 +23,5 @@ class choice{
         }
         s.close();
     }
+
 }
