@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Currency{
+class Doller_to_inr{
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         System.out.println("Enter USA Dollar = ");
@@ -8,4 +8,5 @@ class Currency{
         System.out.println("Indiam Rupees = " + IND_CUR);
         s.close();
         }
+
 }
