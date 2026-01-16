@@ -19,7 +19,7 @@ class Guess_game{
             }
             if(guesses>=10){
                 System.out.println("Nice try,\n10 attemps completed,\nBatter Luck Nexttime");
-                System.out.println("Answers = "+);
+                System.out.println("Answers = "+rn);
                 break; 
             }
             else if(gn>rn){
@@ -27,20 +27,21 @@ class Guess_game{
                 System.out.println("Guess small Number");
         
             }
-            else if(n<g){
+            else if(gn<rn){
                 guesses++;
                 System.out.println("Guess Big Number");
         
             }
             else{
                 guesses++;
-                System.out.println("Congratulations!...\nYou Guess Right Number : " + n);
+                System.out.println("Congratulations!...\nYou Guess Right Number : " + gn);
                 System.out.print("Total Number of Guesses : " + guesses);
                 break;
             }
         }
     }
 }
+
 
 
 
