@@ -24,17 +24,17 @@ class Guess_game{
             }
             else if(gn>rn){
                 guesses++;
-                System.out.println("Guess small Number");
+                System.out.println(guesses+" - Attempts\n"+"Guess small Number");
         
             }
             else if(gn<rn){
                 guesses++;
-                System.out.println("Guess Big Number");
+                System.out.println(guesses+" - Attempts\n"+"Guess Big Number");
         
             }
             else{
                 guesses++;
-                System.out.println("Congratulations!...\nYou Guess Right Number : " + gn);
+                System.out.println(guesses+" - Attempts\n"+"Congratulations!...\nYou Guess Right Number : " + gn);
                 System.out.print("Total Number of Guesses : " + guesses);
                 break;
             }
