@@ -3,7 +3,7 @@ import java.util.Random;
 class Guess_game{
     public static void main(String[] args){
         Random r = new Random();
-        int g = r.nextInt(100);
+        int rn = r.nextInt(100);
         int guesses = 0;
         Scanner s = new Scanner(System.in);
         System.out.println("Guess a Number between 1-100 :- ");
@@ -12,12 +12,17 @@ class Guess_game{
        
         while(guesses<=10){
         System.out.print("Your Number : ");
-        int n = s.nextInt();
-            if(n==-1){
+        int gn = s.nextInt();
+            if(gn==-1){
                 System.out.println("Exite from Game");
                 break;
             }
-            else if(n>g){
+            if(guesses>=10){
+                System.out.println("Nice try,\n10 attemps completed,\nBatter Luck Nexttime");
+                System.out.println("Answers = "+);
+                break; 
+            }
+            else if(gn>rn){
                 guesses++;
                 System.out.println("Guess small Number");
         
@@ -36,5 +41,6 @@ class Guess_game{
         }
     }
 }
+
 
 
