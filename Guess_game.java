@@ -7,9 +7,10 @@ class Guess_game{
         int guesses = 0;
         Scanner s = new Scanner(System.in);
         System.out.println("Guess a Number between 1-100 :- ");
+        System.out.println("Guess Number in Maximum 10 attempts :-");
         System.out.println("Enter -1 to exit");
        
-        while(true){
+        while(guesses<=10){
         System.out.print("Your Number : ");
         int n = s.nextInt();
             if(n==-1){
@@ -35,4 +36,5 @@ class Guess_game{
         }
     }
 }
+
 
