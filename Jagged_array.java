@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Jagger_array {
+class Jagged_array {
     public static void main(String[] args) {
 
         int[][] SK = new int[3][];
@@ -17,3 +17,4 @@ class Jagger_array {
         System.out.println(Arrays.deepToString(SK));
     }
 }
+
